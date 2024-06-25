@@ -335,6 +335,20 @@ http2 = ["h2 (>=3,<5)"]
 socks = ["socksio (==1.*)"]
 
 [[package]]
+name = "i18nice"
+version = "0.15.5"
+description = "Translation library for Python"
+optional = false
+python-versions = "*"
+files = [
+    {file = "i18nice-0.15.5-py3-none-any.whl", hash = "sha256:baec8d78aa3f8cf4a928586abe5ee369f93008bea59dd69c273ef827611847a5"},
+    {file = "i18nice-0.15.5.tar.gz", hash = "sha256:28fa4563390116dd6b16f638c400595d35ce55cd35486dd743daa8a3d31b7d2c"},
+]
+
+[package.extras]
+yaml = ["pyyaml (>=3.10)"]
+
+[[package]]
 name = "idna"
 version = "3.7"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -815,4 +829,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "36325719b51c8d84b79d0ddfca8f373542042473598b2dc956095e54444a1bd0"
+content-hash = "d4cd54ebecf5e26979b4dac798b8951c46be0b0c0da992c513d0eaff5628842b"
